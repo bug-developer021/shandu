@@ -158,7 +158,7 @@ shandu aisearch "Your search query" \
 ## 💻 Python API
 
 ```python
-from shandu.agents import ResearchGraph
+from shandu.agents.langgraph_agent import ResearchGraph
 from langchain_openai import ChatOpenAI
 
 # Initialize with custom LLM if desired
